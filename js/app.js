@@ -9,4 +9,3 @@ function randomStudentGenerator(arr){
 }
 
 console.log(randomStudentGenerator(febPrep));
-
