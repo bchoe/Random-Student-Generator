@@ -2,10 +2,20 @@ let janPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James
 
 let febPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffery','Keola','Vasana'];
 
-function randomStudentGenerator(arr){
+//es5
+/*function randomStudentGenerator(arr){
+  var randomIndex = Math.floor(Math.random() * arr.length);
+  var randomElement = arr[randomIndex];
+  return randomElement;
+}
+
+console.log(randomStudentGenerator(febPrep));*/
+
+// es6
+let randomStudentGenerator = (arr) => {
   let randomIndex = Math.floor(Math.random() * arr.length);
   let randomElement = arr[randomIndex];
   return randomElement;
-}
+};
 
 console.log(randomStudentGenerator(febPrep));
