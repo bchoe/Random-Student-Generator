@@ -18,7 +18,11 @@ console.log(randomStudentGenerator(febPrep));*/
 let randomStudentGenerator = (arr) => {
   let randomIndex = Math.floor(Math.random() * arr.length);
   let randomElement = arr[randomIndex];
+  document.getElementById('main');
+  randomElement.innerHTML = randomElement;
   return randomElement;
 };
 
 console.log(randomStudentGenerator(marPrep));
+
+document.getElementById("demo").addEventListener("click", randomStudentGenerator(marPrep));
