@@ -1,9 +1,9 @@
 // random student generator
 
 // array holding students
-let janPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
+let febPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
 
-let febPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffery','Keola','Vasana'];
+let marPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffery','Keola','Vasana'];
 
 // es5 javascript
 /*function randomStudentGenerator(arr){
@@ -21,4 +21,4 @@ let randomStudentGenerator = (arr) => {
   return randomElement;
 };
 
-console.log(randomStudentGenerator(febPrep));
+console.log(randomStudentGenerator(marPrep));
