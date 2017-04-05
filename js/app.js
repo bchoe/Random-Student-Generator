@@ -7,6 +7,8 @@ let marPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffe','Ke
 
 let aprPrep = ['Brendan', 'Jody', 'Levi', 'Oksana', 'Ross', 'Scott', 'Virginia'];
 
+let mayPrep = [];
+
 // es5 javascript
 function randomStudentGenerator(arr){
   var randomIndex = Math.floor(Math.random() * arr.length);
