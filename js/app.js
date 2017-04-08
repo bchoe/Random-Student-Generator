@@ -5,7 +5,7 @@ let febPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James
 
 let marPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffe','Keola','Vasana'];
 
-let aprPrep = ['Brendan', 'Jody', 'Levi', 'Oksana', 'Ross', 'Scott', 'Virginia'];
+let aprPrep = ['Brendan', 'Jody', 'Levi', 'Oksana', 'Ross', 'Scott', 'Virgi'];
 
 let mayPrep = [];
 
