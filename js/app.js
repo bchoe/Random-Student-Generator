@@ -1,13 +1,13 @@
 // random student generator
 
 // array holding students
-let febPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
+var febPrep = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
 
-let marPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffe','Keola','Vasana'];
+var marPrep = ['Brandon','J5','Kelsie','Mellanie','Seol Hee','Jason','Jeffe','Keola','Vasana'];
 
-let aprPrep = ['Brendan', 'Jody', 'Levi', 'Oksana', 'Ross', 'Scott', 'Virgi'];
+var aprPrep = ['Brendan', 'Jody', 'Levi', 'Oksana', 'Ross', 'Scott', 'Virgi'];
 
-let mayPrep = [];
+var mayPrep = [];
 
 // es5 javascript
 function randomStudentGenerator(arr){
